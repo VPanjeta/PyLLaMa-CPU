@@ -1,8 +1,10 @@
 # PyLLaMa-CPU
 
-Inference of [LLaMA](https://arxiv.org/abs/2302.13971) model on CPU using bindings and wrappers to [llama.cpp](https://github.com/ggerganov/llama.cpp)
+Fast inference of [LLaMA](https://arxiv.org/abs/2302.13971) model on CPU using bindings and wrappers to [llama.cpp](https://github.com/ggerganov/llama.cpp)
 
 <img src="assets/pyllama_cpu.png" alt="PyLLaMa-CPU">
+
+---
 
 Run LLaMa models by Facebook on CPU with fast inference.  
 The 7B model with 4 bit quantization outputs 8-10 tokens/second on a Ryzen 7 3700X.
